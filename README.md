@@ -34,7 +34,6 @@ O seguinte material foi construído a partir de referências publicadas na Inter
 5. Ferramentas CLI (Command Language Interface) para os principais provedores instalada localmente
 6. Um repositório Bucket do OCI previamente criado
 7. Acesso ao serviço OCI AI Speech
-8. Ter configurado um WhatsApp Business API (WABA)
 
 ## Informações adicionais
 É necessário uma conta ativa do OCI. 
