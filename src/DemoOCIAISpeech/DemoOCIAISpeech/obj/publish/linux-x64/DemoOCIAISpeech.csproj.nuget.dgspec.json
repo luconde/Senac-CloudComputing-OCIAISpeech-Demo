@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\temp\\novo\\Senac-CloudComputing-OCIAISpeechWABA-Demo\\src\\DemoOCIAISpeech\\DemoOCIAISpeech\\DemoOCIAISpeech.csproj": {}
+  },
+  "projects": {
+    "C:\\temp\\novo\\Senac-CloudComputing-OCIAISpeechWABA-Demo\\src\\DemoOCIAISpeech\\DemoOCIAISpeech\\DemoOCIAISpeech.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\temp\\novo\\Senac-CloudComputing-OCIAISpeechWABA-Demo\\src\\DemoOCIAISpeech\\DemoOCIAISpeech\\DemoOCIAISpeech.csproj",
+        "projectName": "DemoOCIAISpeech",
+        "projectPath": "C:\\temp\\novo\\Senac-CloudComputing-OCIAISpeechWABA-Demo\\src\\DemoOCIAISpeech\\DemoOCIAISpeech\\DemoOCIAISpeech.csproj",
+        "packagesPath": "C:\\Users\\lucon\\.nuget\\packages\\",
+        "outputPath": "C:\\temp\\novo\\Senac-CloudComputing-OCIAISpeechWABA-Demo\\src\\DemoOCIAISpeech\\DemoOCIAISpeech\\obj\\publish\\linux-x64\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "OCI.DotNetSDK.Aispeech": {
+              "target": "Package",
+              "version": "[65.0.0, )"
+            },
+            "OCI.DotNetSDK.Objectstorage": {
+              "target": "Package",
+              "version": "[65.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

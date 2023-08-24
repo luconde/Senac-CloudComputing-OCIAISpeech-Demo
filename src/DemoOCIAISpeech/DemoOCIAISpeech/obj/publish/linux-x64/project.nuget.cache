@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "S+0YpLLkk/dbbFY2HSaf6huAlurBIvMCm8aniwcIoPxR1InhGdDUjI6o+Ld7ROfm4mwL1ksEWIqR6eBp6EtzUQ==",
+  "success": true,
+  "projectFilePath": "C:\\temp\\novo\\Senac-CloudComputing-OCIAISpeechWABA-Demo\\src\\DemoOCIAISpeech\\DemoOCIAISpeech\\DemoOCIAISpeech.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucon\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\lucon\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.7.1\\microsoft.identitymodel.jsonwebtokens.6.7.1.nupkg.sha512",
+    "C:\\Users\\lucon\\.nuget\\packages\\microsoft.identitymodel.logging\\6.7.1\\microsoft.identitymodel.logging.6.7.1.nupkg.sha512",
+    "C:\\Users\\lucon\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.7.1\\microsoft.identitymodel.tokens.6.7.1.nupkg.sha512",
+    "C:\\Users\\lucon\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\lucon\\.nuget\\packages\\nlog\\4.7.2\\nlog.4.7.2.nupkg.sha512",
+    "C:\\Users\\lucon\\.nuget\\packages\\oci.dotnetsdk.aispeech\\65.0.0\\oci.dotnetsdk.aispeech.65.0.0.nupkg.sha512",
+    "C:\\Users\\lucon\\.nuget\\packages\\oci.dotnetsdk.common\\65.0.0\\oci.dotnetsdk.common.65.0.0.nupkg.sha512",
+    "C:\\Users\\lucon\\.nuget\\packages\\oci.dotnetsdk.objectstorage\\65.0.0\\oci.dotnetsdk.objectstorage.65.0.0.nupkg.sha512",
+    "C:\\Users\\lucon\\.nuget\\packages\\polly\\7.2.0\\polly.7.2.0.nupkg.sha512",
+    "C:\\Users\\lucon\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
+    "C:\\Users\\lucon\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\lucon\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.7.1\\system.identitymodel.tokens.jwt.6.7.1.nupkg.sha512",
+    "C:\\Users\\lucon\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\lucon\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\6.0.20\\microsoft.netcore.app.runtime.linux-x64.6.0.20.nupkg.sha512",
+    "C:\\Users\\lucon\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\6.0.20\\microsoft.aspnetcore.app.runtime.linux-x64.6.0.20.nupkg.sha512",
+    "C:\\Users\\lucon\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\6.0.20\\microsoft.netcore.app.host.linux-x64.6.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

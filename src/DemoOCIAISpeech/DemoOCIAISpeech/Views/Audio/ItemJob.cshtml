@@ -1,0 +1,124 @@
+﻿@using Oci.AispeechService.Models;
+@{
+    ViewData["Title"] = "Exibir detalhes de um Job";
+}
+<h1>Detalhes do Job e as Tasks associadas</h1>
+<table class="table table-bordered table-sm table-striped">
+    <tbody>
+        <tr>
+            <th class="text-nowrap" scope="row">
+                Job Id
+            </th>
+            <td>
+                @ViewBag.JobDetails.Id
+            </td>
+        </tr>
+        <tr>
+            <th class="text-nowrap" scope="row">
+                Display Name
+            </th>
+            <td>
+                @ViewBag.JobDetails.DisplayName
+            </td>
+        </tr>
+        <tr>
+            <th class="text-nowrap" scope="row">
+                Life Cycle State
+            </th>
+            <td>
+                @ViewBag.JobDetails.LifecycleState
+            </td>
+        </tr>
+        <tr>
+            <th class="text-nowrap" scope="row">
+                Life Cycle Details
+            </th>
+            <td>
+                @ViewBag.JobDetails.LifecycleDetails
+            </td>
+        </tr>
+        <tr>
+            <th class="text-nowrap" scope="row">
+                Time Accepted
+            </th>
+            <td>
+                @ViewBag.JobDetails.TimeAccepted
+            </td>
+        </tr>
+        <tr>
+            <th class="text-nowrap" scope="row">
+                Time Started
+            </th>
+            <td>
+                @ViewBag.JobDetails.TimeStarted
+            </td>
+        </tr>
+        <tr>
+            <th class="text-nowrap" scope="row">
+                Time Finished
+            </th>
+            <td>
+                @ViewBag.JobDetails.TimeFinished
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table class="table table-bordered table-sm table-striped">
+    <tr>
+        <th>
+            Id
+        </th>
+        <th>
+            Display Name
+        </th>
+        <th>
+            File Duration in Seconds
+        </th>
+        <th>
+            File Size in Bytes
+        </th>
+        <th>
+            Time Started
+        </th>
+        <th>
+            Processing Duration in Seconds
+        </th>
+        <th>
+            Life Cycle State
+        </th>
+    </tr>
+    @foreach (TranscriptionTaskSummary item in ViewBag.Tasks)
+    {
+    <tr>
+        <td>
+                @if (ViewBag.JobDetails.LifecycleState == Oci.AispeechService.Models.TranscriptionJob.LifecycleStateEnum.Succeeded)
+                {
+                    @Html.ActionLink(item.Id, "ItemTaskDetails", "Audio", new { TaskId = item.Id, JobId = ViewBag.JobDetails.Id })
+                }
+                else
+                {
+                    <p>Url ainda não disponível</p>
+                }
+                
+        </td>
+        <td>
+            @item.DisplayName
+        </td>
+        <td>
+            @item.FileDurationInSeconds
+        </td>
+        <td>
+            @item.FileSizeInBytes
+        </td>
+        <td>
+            @item.TimeStarted
+        </td>
+        <td>
+            @item.ProcessingDurationInSeconds
+        </td>
+        <td>
+            @item.LifecycleState
+        </td>
+    </tr>
+    }
+</table>

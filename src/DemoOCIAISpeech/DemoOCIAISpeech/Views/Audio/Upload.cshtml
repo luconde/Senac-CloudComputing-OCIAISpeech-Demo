@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Upload & Classificação";
+}
+@{
+    if (ViewBag.OK)
+    {
+        <p><b>Realizado com sucesso !</b></p>
+        <p><b>Job Id:</b>@ViewBag.JobId</p>
+    }
+    else
+    {
+        <p>Não ha nenhum arquivo !</p>
+    }
+}

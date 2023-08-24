@@ -1,0 +1,32 @@
+﻿@using Oci.AispeechService.Models;
+@{
+    ViewData["Title"] = "Listar os Jobs";
+}
+<h1>Lista de Jobs enviados para o Serviço</h1>
+<table class="table table-bordered table-sm table-striped">
+    <tr>
+        <th>
+            Display Name
+        </th>
+        <th>
+            Life Cycle State
+        </th>
+        <th>
+            Total Tasks
+        </th>
+    </tr>
+    @foreach (TranscriptionJobSummary item in ViewBag.Jobs)
+    {
+        <tr>
+            <td>
+                @Html.ActionLink(item.DisplayName, "ItemJob", "Audio", new { JobId = item.Id })
+            </td>
+            <td>
+                @item.LifecycleState
+            </td>
+            <td>
+                @item.TotalTasks
+            </td>
+        </tr>
+    }
+</table>
