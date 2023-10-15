@@ -91,15 +91,7 @@
     {
     <tr>
         <td>
-                @if (ViewBag.JobDetails.LifecycleState == Oci.AispeechService.Models.TranscriptionJob.LifecycleStateEnum.Succeeded)
-                {
-                    @Html.ActionLink(item.Id, "ItemTaskDetails", "Audio", new { TaskId = item.Id, JobId = ViewBag.JobDetails.Id })
-                }
-                else
-                {
-                    <p>Url ainda não disponível</p>
-                }
-                
+            @Html.ActionLink(item.Id, "ItemTaskDetails", "Audio", new { TaskId = item.Id, JobId = ViewBag.JobDetails.Id })
         </td>
         <td>
             @item.DisplayName

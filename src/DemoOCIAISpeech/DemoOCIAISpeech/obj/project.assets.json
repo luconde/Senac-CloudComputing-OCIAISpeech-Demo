@@ -660,11 +660,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\temp\\novo\\Senac-CloudComputing-OCIAISpeechWABA-Demo\\src\\DemoOCIAISpeech\\DemoOCIAISpeech\\DemoOCIAISpeech.csproj",
+      "projectUniqueName": "C:\\temp\\Senac-CloudComputing-OCIAISpeechWABA-Demo\\src\\DemoOCIAISpeech\\DemoOCIAISpeech\\DemoOCIAISpeech.csproj",
       "projectName": "DemoOCIAISpeech",
-      "projectPath": "C:\\temp\\novo\\Senac-CloudComputing-OCIAISpeechWABA-Demo\\src\\DemoOCIAISpeech\\DemoOCIAISpeech\\DemoOCIAISpeech.csproj",
+      "projectPath": "C:\\temp\\Senac-CloudComputing-OCIAISpeechWABA-Demo\\src\\DemoOCIAISpeech\\DemoOCIAISpeech\\DemoOCIAISpeech.csproj",
       "packagesPath": "C:\\Users\\lucon\\.nuget\\packages\\",
-      "outputPath": "C:\\temp\\novo\\Senac-CloudComputing-OCIAISpeechWABA-Demo\\src\\DemoOCIAISpeech\\DemoOCIAISpeech\\obj\\",
+      "outputPath": "C:\\temp\\Senac-CloudComputing-OCIAISpeechWABA-Demo\\src\\DemoOCIAISpeech\\DemoOCIAISpeech\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucon\\AppData\\Roaming\\NuGet\\NuGet.Config",

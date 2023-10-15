@@ -14,7 +14,6 @@ using Oci.AispeechService.Requests;
 using Oci.AispeechService.Responses;
 
 using Newtonsoft.Json;
-using System.Text.RegularExpressions;
 
 namespace DemoOCIAISpeech.Controllers
 {
@@ -22,14 +21,6 @@ namespace DemoOCIAISpeech.Controllers
     {
         private readonly IConfiguration pobjConfiguration;
         private readonly IWebHostEnvironment pobjWebHostingConfiguration;
-
-        private string RemoveSpecialCharacters(string input)
-        {
-            string pattern = @"[^a-zA-Z0-9]";
-            string cleanString = Regex.Replace(input, pattern, "");
-
-            return cleanString;
-        }
         private string RandomizeFileName(string AdvisorName, string FileName)
         {
             //Gera um numero randomico para evitar conflito de nomes
@@ -133,7 +124,6 @@ namespace DemoOCIAISpeech.Controllers
             var objTaskReponse = await oAIClient.ListTranscriptionTasks(objTaskRequest);
 
             ViewBag.Tasks = objTaskReponse.TranscriptionTaskCollection.Items;
-            
 
             return View();
         }
@@ -262,7 +252,7 @@ namespace DemoOCIAISpeech.Controllers
                         CreateTranscriptionJobDetails = new CreateTranscriptionJobDetails
                         {
                             CompartmentId = pobjConfiguration.GetValue<string>("OCIBucket:CompartmentId"),
-                            DisplayName = RemoveSpecialCharacters(advisorname),
+                            DisplayName = "Ola",
                             InputLocation = objInputLocation,
                             ModelDetails = objTranscriptionModelDetails,
                             Normalization = objTranscriptionNormalization,

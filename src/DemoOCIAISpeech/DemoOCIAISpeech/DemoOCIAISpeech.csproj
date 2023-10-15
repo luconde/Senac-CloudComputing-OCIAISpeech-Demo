@@ -12,7 +12,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Properties\PublishProfiles\" />
+    <Content Update="prefixo_job-amaaaaaa46idiniaobpfczocagxd46ee2k67wb2qpualo43slqbpuorpawnq_gr4ipmskliag_bucketimagens_audios_777-1188806328-WhatsApp Ptt 2023-07-12 at 21.40.26.ogg.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Private-oracleidentitycloudservice_luconde-07-11-00-08.pem">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Public-oracleidentitycloudservice_luconde-07-11-00-08_public.pem">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
